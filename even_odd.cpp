@@ -1,4 +1,4 @@
- #include <iostream>
+ #include <iostream.h>
 
 #include<stdio.h>
 
@@ -8,16 +8,15 @@ int main()
 
     int i,l;
    
- int a[10];
-   
-  getline(a,10);
-    
-  l=strlen(a);
- 
-   if(a[l-1]==0||a[l-1]==2||a[l-1]==6||a[l-1]==8)
+ int a,n=108;
+  a=n;
+a=a-a/10*10;
   
-  std::cout << "Even no" << std::endl;
    
+  
+   if(a==0||a==2||a==6||a==8||a==4)
+  
+  cout << "Even no";   
  else
    
  cout<<"Odd No";
